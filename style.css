@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(green.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 403px;
+}
+
+.login{
+    width: 460px;
+    height: 520px;
+    background: rgba(0,0,0,0.7);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.avtar{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:-43px;
+    left: 41%;
+}
+
+
+h1{
+    margin: 30px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login p{
+    margin: 28px;
+    padding: 0;
+    font-weight: bold;
+}
+.login input{
+    width: 90%;
+    margin-bottom: 24px;
+    margin-left: 21px;
+}
+.login input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #39dc79;
+    
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login input:hover[type="submit"]
+{
+    background: #1c8adb;
+    cursor: pointer;
+    
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.login a:hover
+{
+    color: #1c8adb;
+}
+
+
+
+
+
+
+
+
